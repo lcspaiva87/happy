@@ -1,0 +1,11 @@
+import Leafleat from 'leaflet';
+import  mapMarkerImg from '../images/local.svg';
+const mapIcon = Leafleat.icon({
+  iconUrl: mapMarkerImg,
+
+  iconSize: [58, 68],
+  iconAnchor: [29, 68],
+  popupAnchor: [0, -60]
+})
+
+export default mapIcon;
